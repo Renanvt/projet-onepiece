@@ -1,0 +1,79 @@
+@media (max-width:769px) {
+     main::after {
+        background-color: linear-gradient(0deg, #000 20%, rgba(0, 0, 0, 0.00) 65%) no-repeat;
+        width: 100vw;
+    
+    }
+
+    .personagem-fundo{
+        height: 88vh;
+       
+    }
+
+    .container{
+        justify-content: flex-end;
+        left: 0;
+        top: -20%;
+        max-width: 100vw;
+        padding: 30px;
+    }
+    
+    .container .nome-personagem{
+        font-size: 2em;
+    }
+
+    .container .descricao{
+        max-width: 500px;
+    }
+
+    .menu .botoes{
+        flex-flow: row nowrap;
+        align-items: flex-end;
+        width: 100%;
+        padding: 30px;
+        background-color: black;
+        min-height: 10vh;
+        transform: translateY(calc(100vh - 110px));
+       
+    }
+    
+    .botoes .botao img{
+        max-width: 60px;
+    }
+}
+
+@media (max-width: 425px) {
+    main::after{
+        background-color: linear-gradient(0deg, #000 20%, rgba(0, 0, 0, 0.00) 65%) no-repeat;
+        width: 100vw;
+    }
+     
+    .personagem-fundo{
+    
+    transform: scale(1);
+    
+    }
+
+    .imagem-titulo{
+        width: 170px;
+        height: 75px;
+    }
+
+    .menu .botoes{
+        transform: translateY(calc(100vh - 110px)) scale(.8);
+    }
+
+    .container{
+        gap: px;
+    }
+
+    .container .nome-personagem{
+        padding-top: 50px;
+    }
+
+    .container .descricao{
+        font-size: .8em;      
+    }
+
+
+}

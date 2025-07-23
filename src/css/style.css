@@ -1,15 +1,102 @@
-.imagem-fundo{
-   tblabla
-
-.cabecalho{
-    
+body{
+   background-color: #000;
+   overflow: hidden;
 }
-.cabecalho .menu{}
 
-.container{ }
+.personagem-fundo {
+   height: 100vh;
+}
 
-.imagem-titulo{}
+.personagem-fundo>img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
 
-.informacoes{}
+main::after {
+   content: "";
+   position: fixed;
+   top: 0;
+   left: 0;
+   min-height: 100vh;
+   width: 80vw;
+   background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
+   z-index: -1;
+}
 
+.menu .botoes {
+   /* background-color: aqua; */
+   background-color: rgba(0, 0, 0, 0.3);
+   position: fixed;
+   top: 0;
+   right: 0;
+   min-height: 100vh;
 
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: center;
+   align-items: center;
+
+   width: 180px;
+
+   gap: 10px;
+
+}
+
+.botoes .botao {
+   border: none;
+   background: none;
+
+   cursor: pointer;
+   border-radius: 50%;
+}
+
+.botoes .botao img {
+   border-radius: 50%;
+}
+
+.botoes .botao.selecionado {
+   transform: scale(1.2);
+   box-shadow: 0 0 10px #d9d9d9;
+}
+
+.container {
+   position: absolute;
+   top: 0;
+   left: 120px;
+   color: white;
+   /* background-color: bisque; */
+
+   max-width: 380px;
+
+   min-height: 100vh;
+
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: center;
+
+   z-index: 1;
+}
+
+.container .nome-personagem {
+   font-size: 3em;
+   font-family: var(--fonte-padrao);
+   font-weight: 400;
+   font-style: normal;
+   margin-bottom: 20px;
+
+}
+
+.container .descricao {
+   font-family: var(--fonte-texto);
+   font-weight: 400;
+   font-style: normal;
+   font-size: 1em;
+   line-height: 1.5em;
+}
+
+.imagem-titulo>img {
+   max-width: 240px;
+}
+
+.personagem {}

@@ -1,3 +1,31 @@
-*{dasdasdsd
-    ddasdasdsaxsadadygfsdadsddadddddadsddddddasddsasdadaasdasdasdas KKKKKKKKKKKKKKKKKN ossa kkkkkkkkkkkkkkk trouxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa to aqui ainda
-}ad
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --fonte-padrao: "Secular One", sans-serif;;
+    --fonte-texto: "Rubik", sans-serif;
+}
+
+.secular-one-regular {
+  font-family: "Secular One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.rubik{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: bold;
+}

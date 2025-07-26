@@ -5,6 +5,8 @@
 
 <h3 align="center">Projeto Naruto Shippuden </h3>
 
+
+
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
@@ -18,6 +20,9 @@
 
 <p align="center"> Projeto de site responsivo demonstrando cada personagem da Akatsuki do universo de Naruto Shippuden.
     <br> 
+</p>
+<p align="center">
+  <a href="https://renanvt.github.io/projeto-narutoshippuden/">Site do Projeto</a>
 </p>
 
 ## 📝 Tabela de Conteúdos

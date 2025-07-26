@@ -12,7 +12,7 @@
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](/LICENSE)
 
 </div>
 
@@ -34,6 +34,7 @@
 - [Contribuindo](../CONTRIBUTING.md)
 - [Autores](#authors)
 - [Agradecimentos](#acknowledgement)
+- [Licença](#license)
 
 ## 🧐 Sobre <a name = "about"></a>
 
@@ -70,3 +71,15 @@ git clone https://github.com/Renanvt/projet-narutoshippuden.git``.
 
 - Agradecimento a equipe @DevEmDobro que contribuíram com o código utilizado
 - Inspiração Projeto One Piece @DevEmDobro
+
+## 📝 LICENÇA <a name = "license"></a>
+
+Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright © 2025 [Renan Vitoriano](https://github.com/Renanvt)
+
+Você pode usar, adaptar e compartilhar este projeto, desde que dê os devidos créditos aos autores.
+
+Para mais informações, consulte o arquivo [LICENSE](LICENSE)
+
+Projeto desenvolvido como prática pessoal com base nos ensinamentos da equipe [Dev em Dobro](https://www.devendobro.com).

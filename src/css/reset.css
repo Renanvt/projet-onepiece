@@ -12,20 +12,16 @@ ul {
 }
 
 :root {
-    --fonte-padrao: "Secular One", sans-serif;;
-    --fonte-texto: "Rubik", sans-serif;
+    --fonte-padrao: "Special Elite", sans-serif;;
+    --fonte-texto: "Poppins", sans-serif;
 }
 
-.secular-one-regular {
-  font-family: "Secular One", sans-serif;
+
+
+.special-elite-regular {
+  font-family: "Special Elite", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
 
-.rubik{
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: bold;
-}

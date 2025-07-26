@@ -55,11 +55,8 @@
         height: 65%;
         /* transform: scale(2.5); */
 
-
-
     }
 
-    main .personagem {}
 
     main::after {
         width: 100vw;
